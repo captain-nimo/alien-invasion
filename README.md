@@ -67,7 +67,7 @@ For other installation methods, see the [uv documentation](https://docs.astral.s
 
 1. **Navigate to the project directory:**
 ```bash
-cd alien_invasion
+cd alien-invasion
 ```
 
 2. **Install dependencies:**
@@ -119,7 +119,7 @@ self.speedup_scale = 1.2       # More aggressive difficulty scaling
 ## Project Structure
 
 ```
-alien_invasion/
+alien-invasion/
 ├── alien_invasion.py       # Main game loop and controller
 ├── ship.py                 # Ship sprite class
 ├── bullet.py               # Bullet sprite class
