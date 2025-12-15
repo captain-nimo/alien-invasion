@@ -72,19 +72,19 @@ cd alien-invasion
 
 2. **Install dependencies:**
 ```bash
-uv pip install pygame
+uv sync
 ```
 
 
 3. **Generate the alien sprite image** (if not already created):
 ```bash
-python create_alien_image.py
+uv run create_alien_image.py
 ```
 
 ## Running the Game
 
 ```bash
-python alien_invasion.py
+uv run alien_invasion.py
 ```
 
 The game window will open at 1200x800 resolution.
